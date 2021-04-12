@@ -1,5 +1,15 @@
 # sh-fes2021
 
+## Required
+
+For Android:
+
+* AndroidStudio(for android development)
+* Java SE Development Kit(JDK)
+* Android SDK
+* Android SDK Platform
+* Android Virtual Device
+
 ## Installation
 
 ```bash
