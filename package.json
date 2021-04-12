@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "react-native-monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "mobile": "yarn workspace mobile start",
+    "web": "yarn workspace web start",
+    "android": "yarn workspace mobile android"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "dependencies": {
+    "react-native": "*"
+  }
+}

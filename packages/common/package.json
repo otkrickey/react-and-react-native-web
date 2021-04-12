@@ -1,0 +1,21 @@
+{
+  "name": "@otkrickey/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "author": "otkrickey",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-native": "^0.64.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
