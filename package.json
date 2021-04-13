@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "yarn workspaces run build",
+    "build": "yarn workspace @otkrickey/common build",
     "mobile": "yarn workspace mobile start",
     "web": "yarn workspace web start",
     "android": "yarn workspace mobile android"
